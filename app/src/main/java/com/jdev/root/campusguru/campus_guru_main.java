@@ -80,13 +80,19 @@ public class campus_guru_main extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camara) {
+        if (id == R.id.nav_portal) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_mail) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_lib) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_map) {
+
+        } else if (id == R.id.nav_forum) {
+
+        } else if (id == R.id.nav_clubs) {
+
+        } else if (id == R.id.nav_events) {
 
         } else if (id == R.id.nav_share) {
 

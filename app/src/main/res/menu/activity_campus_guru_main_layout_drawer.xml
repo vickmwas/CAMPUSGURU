@@ -3,21 +3,41 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camara"
+            android:id="@+id/nav_portal"
             android:icon="@android:drawable/ic_menu_camera"
-            android:title="Import"/>
+            android:title="Portal"/>
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_mail"
             android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Gallery"/>
+            android:title="Mail"/>
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_lib"
             android:icon="@android:drawable/ic_menu_slideshow"
-            android:title="Slideshow"/>
+            android:title="Ebrary"/>
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_map"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Campus Map"/>
+
+    </group>
+
+
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Comrade Forum"/>
+        <item
+            android:id="@+id/nav_clubs"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Comrade Clubs"/>
+
+        <item
+            android:id="@+id/nav_events"
             android:icon="@android:drawable/ic_menu_manage"
-            android:title="Tools"/>
+            android:title="Comrade Events"/>
     </group>
 
     <item android:title="Communicate">
